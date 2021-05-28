@@ -1,0 +1,126 @@
+body{
+    background-image: url(img/back.png);
+    background-size: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.conteiner{
+    text-decoration: none;
+    width:  100%;
+    max-width: 1366px;
+    margin-left: 155px;   
+    list-style: none;
+    color: white;    
+}
+
+.img-block{
+    float: left;
+    margin-right: 15px;
+}
+.img-block:hover{
+    background-color: #f26522; 
+}
+.text{
+    margin-top: 47px;
+    
+}
+.milan:hover{
+    color: #f26522;
+}
+.holidays:hover{color: #f26522;}
+.milan{
+    font-size: 22px;
+    text-transform: uppercase;    
+    font-weight: bold;
+    letter-spacing: 2px;   
+    color: white;
+}
+.holidays{
+    text-transform: uppercase;
+    font-size: 13px;  
+    margin-bottom: -10px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    color: white;
+}
+a{text-decoration: none;}
+a:visited{
+    color: white;
+}
+.mail{
+    margin-right: 147px;
+    font-size: 12px;
+    float: right;
+    margin-top: -15px;
+    text-align: right;
+    padding-bottom: 8px;
+    color: white;
+}
+.main-block{
+    margin-top: 44px;
+    margin-left: 155px;
+    float: center;
+    
+}
+.main-block:hover{
+    color: #f26522;
+}
+.img1{
+   float: left;
+   padding-right: 65px;
+   text-align: center;
+   
+}
+
+
+.img2{
+    float: center;
+    text-align: left;     
+}
+.img3{
+    float: right;
+    margin-top: -299px;
+    margin-right: 59px;
+    text-align: center;
+}
+
+.img4{
+    float: left;    
+    margin-left: -371px;  
+    text-align: center;
+}
+
+.img5{
+    float:center;    
+}
+
+.img6{
+    float: right;
+    margin-top: -300px;
+    margin-right: 58px;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 56px;
+    margin-top: 24px;
+    font-weight: bold;
+    color: white;
+}
+p:hover{color: #f26522;}
+.akaashi{
+    text-align: left;
+    padding-left: 385px;
+}
+.tomioka{
+    text-align: center;
+    padding-right: 75px;
+}
+.foot{
+    margin-top: 61px;
+    text-align: center;
+    margin-left:100px;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 22px;
+}
