@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("font/OpenSans-Bold.ttf") format("truetype");
+    font-size: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("font/OpenSans-Regular.ttf") format("truetype");
+    font-size: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("font/OpenSans-SemiBold.ttf") format("truetype");
+    font-size: normal;
+    font-weight: 300;
+}
+body{     
+    text-decoration: none;
+   /* width:  100%;*/
+   width: 1900px;
+    max-width: 1900px;  
+    list-style: none;  
+    font-family: "OpenSans-Bold";
+    background-color: #f2f2f2;  
+}
+header{
+    height: 70px;
+    background-color: #1d2124;       
+}
+.logo{
+    display: flex; 
+    flex-direction: row;
+}
+.arh{
+    font-size: 18px;    
+    margin-top: 23px;
+    margin-left: 6px;
+    color: white;
+}
+.menuHeader{
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+    color: white;   
+}
+.menuItem{
+    margin-right: 37px;
+    text-transform: uppercase;
+}
+.logo2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -48px;
+}
+.UpBlock{
+    background-image: url(img/header-bg.jpeg);   
+    min-height: 376px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news{
+    padding-top: 128px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 29px; 
+    font-family: "OpenSans-Regular";
+  /*  padding-right: 140px;*/
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px; 
+  /*  margin-right: 150px;*/   
+}
+.button1, .button2{
+    height: 55px;
+    width: 170px;
+    border-radius: 3px;
+    border: none;
+    color:white;
+    font-size: 17px;
+}
+.button1{
+    margin-right: 20px;
+    background-color: #89ca62;
+}
+.button2{
+    background-color: #14b9d5;
+}
+.most{
+    /*якась хуєта тут взагалі треба ширина????
+    width: 1169px;*/
+    /*блять*/
+    margin-left: 365px;    
+    margin-right: 365px;
+}
+.mostText{
+    text-align: center;
+    margin-top: 60px;
+   /* margin-right: 130px;*/
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #18b4cf;
+    margin-bottom: 52px;
+}
+.pic1{    
+    display: flex;
+    flex-wrap: wrap;    
+}
+.p1,.p2,.p4,.p5{    
+    background-color: white;  
+    margin-right: 29px; 
+}
+.p3,.p6{
+    background-color: white; 
+}
+.p1,.p2,.p3{
+    margin-bottom: 30px;
+}
+.p1{
+    height: 322px;
+}
+.p2{
+    height: 440px;
+}
+.p3{
+    height: 351px;
+}
+.p4{
+    margin-top: -120px;
+    height: 322px;
+}
+.p5{
+    height: 310px;
+}
+.p6{
+    margin-top: -90px;
+    height: 440px;
+}
+.t1{
+    margin-top: 17px;
+    margin-left: 30px;
+}
+.ourMost{
+    min-height: 586px;
+    background:        
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)),
+        url(img/parallax-bg.jpeg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.ourText{
+    margin-top: 76px;
+    padding-top: 199px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    padding-bottom: 56px;
+}
+hr{
+    height: 3px;
+    width: 60px;
+    background-color: #169cb4;
+    border: none; 
+    margin-bottom: 59px;  
+}
+.brand{
+    margin-left: 510px;
+    margin-right: 500px;    
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+}
+.down{
+    background-color: white;
+}
+.trtext,.hnText{
+    padding-top: 64px;
+    padding-bottom: 53px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #18b4cf;
+    text-align: center;
+}
+.pic2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto; 
+}
+.hotNews{
+    margin-left: 365px;    
+    margin-right: 365px; 
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.emirate,.spain,.egypt,.maldives,.tenerife,.GreatBritain{
+    background-color: #f9f7f7;
+    margin-bottom: 43px;
+}
+.emirate,.spain2{  
+    width: 857px;  
+    display: grid;
+    grid-template-columns: auto auto; 
+}
+.emirate,.ireland{
+    margin-right: 35px;
+}
+.tn1,.tn2,.tn3,.tn4,.tn5,.tn6,.tn7,.tn7,.tn8{
+    font-family: "OpenSans-Bold";
+    font-size: 17px;
+    text-align: right;
+}
+.tn2,.tn7{
+    text-align: center;
+}
+.tn1{    
+    margin-right: 24px;
+    margin-top: 42px;    
+    margin-bottom: 26px;
+}
+.tn2{
+    margin-top: 8px;
+}
+.text1,.text3,.text4,.text5,.text6,.text8{
+    font-family: "OpenSans-SemiBold";
+    font-size: 13px;
+    text-align: right;
+    margin-right: 24px;
+}
+.text1{    
+    margin-left: 31px;    
+}
+.spain,.ireland{
+    height: 259px;
+    width: 277px;
+}
+/*спитать чи треба для всіх ставит ширину (лишні строчки кода наверн) 
+чи достатньо для одного а там автоматично даставиться
+ */
+.egypt,.tenerife{
+    width: 556px;
+    margin-right: 59px;   
+}
+.tn3,.tn4,.tn5,.tn6{
+    margin-top: 21px;
+    margin-right: 26px;
+    margin-bottom: 27px;
+}
+.text3,.text4,.text5,.text6{
+    margin-left: 23px;
+    margin-bottom: 23px;
+}
+.tn7{
+    margin-top: 7px;
+}
+.tn8{
+    margin-top: 37px;
+    margin-right: 24px;
+}
+.text8{
+    margin-right: -2px;
+    margin-left: 30px;
+    margin-top: 26px;
+}
+.ireland,.spain2{
+    margin-bottom: 95px;
+    background-color: #f9f7f7;
+}
+footer{
+    height: 79px;
+    background-color: #1d2124;
+    padding-right: 365px;
+    padding-left: 365px;
+    display: grid;
+    grid-template-columns: auto 156px;
+}
+.foot{    
+    color: white;
+    font-size: 13px;
+    padding-top: 36px;
+}
+.footpic{
+    align-self: flex-end;    
+}
+.footpic1{
+    padding-bottom: 15px;
+}
+.footpic2{
+    padding-bottom: 23px;
+}
