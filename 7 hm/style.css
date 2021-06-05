@@ -1,0 +1,31 @@
+body {
+    background: #000;
+    color: #ffe919; 
+    font-family: sans-serif;
+   }
+   @keyframes scroll {
+    from { top: 100%; }
+    to { top: -10%; }
+   }
+   .tittle {
+    position: absolute;
+    width: 18em;
+    height: 55em;
+    bottom: 0;
+    left: 50%; 
+    margin-left: -9em;
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: justify;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(20deg);
+    overflow: hidden;
+   }
+   .text{
+    position: absolute;
+    top: 100%;
+    animation: scroll 30s linear infinite;
+   }
+   h3{text-align: center; margin-bottom: 100px;}
+   p{text-align: center; margin-bottom: 40px;}
